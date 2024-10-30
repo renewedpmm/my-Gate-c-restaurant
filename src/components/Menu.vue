@@ -114,7 +114,7 @@
     })
    
     async function fetchMenu() {
-        const menuResponse = await axios.get('http://127.0.0.1:8000/api/menus')
+        const menuResponse = await axios.get('http://127.0.0.1:8000/api/menu')
         menu.value = menuResponse.data
     }
 
